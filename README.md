@@ -94,7 +94,7 @@ Powerful telegram bot that scrape Posters from multiple OTT platforms & Bypass d
 - **`BOT_TOKEN`** - Get this from [@BotFather](https://t.me/BotFather)
 - **`DATABASE_URL`** - MongoDB database URL
 - **`OWNER_ID`** - Your Telegram user ID
-  - **`UPSTREAM_REPO`** - Your forked repository URL for autu update
+- **`UPSTREAM_REPO`** - Your forked repository URL for autu update
 - **`UPSTREAM_BRANCH`** - Repository branch name 
 
 ### Optional Variables
