@@ -7,7 +7,7 @@ from config import Config
 LOGGER = getLogger(__name__)
 
 
-class EchoClient:
+class EchoBot:
     _lock = Lock()
 
     bot: Client | None = None
@@ -15,9 +15,9 @@ class EchoClient:
     USERNAME = ""
 
     @classmethod
-    async def start_bot(cls):
+    async def start(cls):
         async with cls._lock:
-            LOGGER.info("Starting Echo bot client")
+            LOGGER.info("Starting EchoBot client")
             cls.bot = Client(
                 "EchoBotz",
                 api_id=Config.API_ID,
@@ -30,7 +30,7 @@ class EchoClient:
             me = cls.bot.me
             cls.ID = me.id
             cls.USERNAME = me.username
-            LOGGER.info(f"Echo Bot Started as @{cls.USERNAME}")
+            LOGGER.info(f"EchoBot started as @{cls.USERNAME}")
 
     @classmethod
     async def stop(cls):
@@ -38,4 +38,4 @@ class EchoClient:
             if cls.bot:
                 await cls.bot.stop()
                 cls.bot = None
-                LOGGER.info("Echo Bot stopped")
+                LOGGER.info("EchoBot stopped")
