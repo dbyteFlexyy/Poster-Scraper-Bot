@@ -1,62 +1,78 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 class echo(object):
-    ABC = '''<b><u>POSTER SCRAPPER BOT</u></b>  
+    ABC = '''<b><u>𝑷𝒐𝒔𝒕𝒆𝒓 𝑺𝒄𝒓𝒂𝒑𝒑𝒆𝒓 𝑩𝒐𝒕</u></b>  
 
-<b>This bot scrapes posters from various OTT platforms and bypasses direct links from cloud sites.</b>  
+<b>𝑻𝒉𝒊𝒔 𝒃𝒐𝒕 𝒔𝒄𝒓𝒂𝒑𝒆𝒔 𝒑𝒐𝒔𝒕𝒆𝒓𝒔 𝒇𝒓𝒐𝒎 𝒗𝒂𝒓𝒊𝒐𝒖𝒔 𝑶𝑻𝑻 𝒑𝒍𝒂𝒕𝒇𝒐𝒓𝒎𝒔 𝒂𝒏𝒅 𝒃𝒚𝒑𝒂𝒔𝒔𝒆𝒔 𝒅𝒊𝒓𝒆𝒄𝒕 𝒍𝒊𝒏𝒌𝒔 𝒇𝒓𝒐𝒎 𝒄𝒍𝒐𝒖𝒅 𝒔𝒊𝒕𝒆𝒔.</b>  
 
-<b>✺ Commands</b>  
+<b>✦ 𝑪𝒐𝒎𝒎𝒂𝒏𝒅𝒔 ✦</b>  
 <blockquote expandable>  
-/poster - Scrape any movie/show poster  
-/overlap - Overlay a logo on a poster  
-/imdb - Search movie/series on IMDb  
-/anime - Search Anime on Anilist  
-/gdflix - Bypass GDFlix links  
-/extraflix - Bypass ExtraFlix links to direct links  
-/hubcloud - Bypass HubCloud links to direct links  
-/hubdrive - Bypass Hubdrive links to direct links  
-/hubcdn - Bypass HubCDN links to direct links  
-/transfer_it - Bypass Transfer.it links to direct links  
-/driveleech - Bypass DriveLeech links to direct links  
-/neo - Bypass NeoLinks links to direct links  
-/gdrex - Bypass GDRex links to direct links  
-/pixelcdn - Bypass PixelCDN links to direct links  
-/extralink - Bypass ExtraLink links to direct links  
-/luxdrive - Bypass LuxDrive links to direct links  
-/nexdrive - Bypass NexDrive links to direct links
-/hblinks -Bypass HBLinks to direct links
-/prime - Prime Video poster  
-/zee5 - ZEE5 poster  
-/appletv - Apple TV+ poster  
-/airtel - Airtel Xstream poster  
-/sunnxt - Sun NXT poster  
-/aha - Aha Video poster  
-/iqiyi - iQIYI poster  
-/wetv - WeTV poster  
-/shemaroo - ShemarooMe poster  
-/bms - BookMyShow poster  
-/plex - Plex TV poster  
-/adda - Addatimes poster  
-/stage - Stage poster  
-/netflix - Netflix poster  
-/mxplayer - Mx Player Poster 
-/youtube - YouTube thumbnail  
-/instagram - Instagram thumbnail  
-/facebook - Facebook thumbnail  
-/tiktok - TikTok thumbnail  
-</blockquote>  
-<b>Examples</b>  
-<code>/poster Avatar</code>  
-<code>/poster Avatar 2022</code>  
-<code>/poster Avatar: The Way of Water</code>  
+<b>📁 𝑷𝒐𝒔𝒕𝒆𝒓 𝑺𝒄𝒓𝒂𝒑𝒊𝒏𝒈</b>
+/𝒑𝒐𝒔𝒕𝒆𝒓 - 𝑺𝒄𝒓𝒂𝒑𝒆 𝒂𝒏𝒚 𝒎𝒐𝒗𝒊𝒆/𝒔𝒉𝒐𝒘 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒐𝒗𝒆𝒓𝒍𝒂𝒑 - 𝑶𝒗𝒆𝒓𝒍𝒂𝒚 𝒂 𝒍𝒐𝒈𝒐 𝒐𝒏 𝒂 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒊𝒎𝒅𝒃 - 𝑺𝒆𝒂𝒓𝒄𝒉 𝒎𝒐𝒗𝒊𝒆/𝒔𝒆𝒓𝒊𝒆𝒔 𝒐𝒏 𝑰𝑴𝑫𝒃
+/𝒂𝒏𝒊𝒎𝒆 - 𝑺𝒆𝒂𝒓𝒄𝒉 𝑨𝒏𝒊𝒎𝒆 𝒐𝒏 𝑨𝒏𝒊𝒍𝒊𝒔𝒕
 
-<b>NOTE:</b> Bot can filter results by keywords and release year.  
+<b>☁️ 𝑪𝒍𝒐𝒖𝒅 𝑳𝒊𝒏𝒌 𝑩𝒚𝒑𝒂𝒔𝒔</b>
+/𝒈𝒅𝒇𝒍𝒊𝒙 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑮𝑫𝑭𝒍𝒊𝒙 𝒍𝒊𝒏𝒌𝒔
+/𝒆𝒙𝒕𝒓𝒂𝒇𝒍𝒊𝒙 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑬𝒙𝒕𝒓𝒂𝑭𝒍𝒊𝒙 𝒍𝒊𝒏𝒌𝒔
+/𝒉𝒖𝒃𝒄𝒍𝒐𝒖𝒅 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑯𝒖𝒃𝑪𝒍𝒐𝒖𝒅 𝒍𝒊𝒏𝒌𝒔
+/𝒉𝒖𝒃𝒅𝒓𝒊𝒗𝒆 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑯𝒖𝒃𝒅𝒓𝒊𝒗𝒆 𝒍𝒊𝒏𝒌𝒔
+/𝒉𝒖𝒃𝒄𝒅𝒏 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑯𝒖𝒃𝑪𝑫𝑵 𝒍𝒊𝒏𝒌𝒔
+/𝒕𝒓𝒂𝒏𝒔𝒇𝒆𝒓_𝒊𝒕 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑻𝒓𝒂𝒏𝒔𝒇𝒆𝒓.𝒊𝒕 𝒍𝒊𝒏𝒌𝒔
+/𝒅𝒓𝒊𝒗𝒆𝒍𝒆𝒆𝒄𝒉 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑫𝒓𝒊𝒗𝒆𝑳𝒆𝒆𝒄𝒉 𝒍𝒊𝒏𝒌𝒔
+/𝒏𝒆𝒐 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑵𝒆𝒐𝑳𝒊𝒏𝒌𝒔 𝒍𝒊𝒏𝒌𝒔
+/𝒈𝒅𝒓𝒆𝒙 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑮𝑫𝑹𝒆𝒙 𝒍𝒊𝒏𝒌𝒔
+/𝒑𝒊𝒙𝒆𝒍𝒄𝒅𝒏 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑷𝒊𝒙𝒆𝒍𝑪𝑫𝑵 𝒍𝒊𝒏𝒌𝒔
+/𝒆𝒙𝒕𝒓𝒂𝒍𝒊𝒏𝒌 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑬𝒙𝒕𝒓𝒂𝑳𝒊𝒏𝒌 𝒍𝒊𝒏𝒌𝒔
+/𝒍𝒖𝒙𝒅𝒓𝒊𝒗𝒆 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑳𝒖𝒙𝑫𝒓𝒊𝒗𝒆 𝒍𝒊𝒏𝒌𝒔
+/𝒏𝒆𝒙𝒅𝒓𝒊𝒗𝒆 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑵𝒆𝒙𝑫𝒓𝒊𝒗𝒆 𝒍𝒊𝒏𝒌𝒔
+/𝒉𝒃𝒍𝒊𝒏𝒌𝒔 - 𝑩𝒚𝒑𝒂𝒔𝒔 𝑯𝑩𝑳𝒊𝒏𝒌𝒔 𝒕𝒐 𝒅𝒊𝒓𝒆𝒄𝒕 𝒍𝒊𝒏𝒌𝒔
+
+<b>🎞️ 𝑶𝑻𝑻 𝑷𝒍𝒂𝒕𝒇𝒐𝒓𝒎𝒔</b>
+/𝒑𝒓𝒊𝒎𝒆 - 𝑷𝒓𝒊𝒎𝒆 𝑽𝒊𝒅𝒆𝒐 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒛𝒆𝒆5 - 𝒁𝑬𝑬5 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒂𝒑𝒑𝒍𝒆𝒕𝒗 - 𝑨𝒑𝒑𝒍𝒆 𝑻𝑽+ 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒂𝒊𝒓𝒕𝒆𝒍 - 𝑨𝒊𝒓𝒕𝒆𝒍 𝑿𝒔𝒕𝒓𝒆𝒂𝒎 𝒑𝒐𝒐𝒔𝒕𝒆𝒓
+/𝒔𝒖𝒏𝒏𝒙𝒕 - 𝑺𝒖𝒏 𝑵𝑿𝑻 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒂𝒉𝒂 - 𝑨𝒉𝒂 𝑽𝒊𝒅𝒆𝒐 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒊𝒒𝒊𝒚𝒊 - 𝒊𝑸𝑰𝒀𝑰 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒘𝒆𝒕𝒗 - 𝑾𝒆𝑻𝑽 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒔𝒉𝒆𝒎𝒂𝒓𝒐𝒐 - 𝑺𝒉𝒆𝒎𝒂𝒓𝒐𝒐𝑴𝒆 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒃𝒎𝒔 - 𝑩𝒐𝒐𝒌𝑴𝒚𝑺𝒉𝒐𝒘 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒑𝒍𝒆𝒙 - 𝑷𝒍𝒆𝒙 𝑻𝑽 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒂𝒅𝒅𝒂 - 𝑨𝒅𝒅𝒂𝒕𝒊𝒎𝒆𝒔 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒔𝒕𝒂𝒈𝒆 - 𝑺𝒕𝒂𝒈𝒆 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒏𝒆𝒕𝒇𝒍𝒊𝒙 - 𝑵𝒆𝒕𝒇𝒍𝒊𝒙 𝒑𝒐𝒔𝒕𝒆𝒓
+/𝒎𝒙𝒑𝒍𝒂𝒚𝒆𝒓 - 𝑴𝒙 𝑷𝒍𝒂𝒚𝒆𝒓 𝑷𝒐𝒔𝒕𝒆𝒓
+
+<b>📱 𝑺𝒐𝒄𝒊𝒂𝒍 𝑴𝒆𝒅𝒊𝒂</b>
+/𝒚𝒐𝒖𝒕𝒖𝒃𝒆 - 𝒀𝒐𝒖𝑻𝒖𝒃𝒆 𝒕𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍
+/𝒊𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎 - 𝑰𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎 𝒕𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍
+/𝒇𝒂𝒄𝒆𝒃𝒐𝒐𝒌 - 𝑭𝒂𝒄𝒆𝒃𝒐𝒐𝒌 𝒕𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍
+/𝒕𝒊𝒌𝒕𝒐𝒌 - 𝑻𝒊𝒌𝑻𝒐𝒌 𝒕𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍
+</blockquote>
+
+<b>✨ 𝑬𝒙𝒂𝒎𝒑𝒍𝒆𝒔 ✨</b>
+<code>/𝒑𝒐𝒔𝒕𝒆𝒓 𝑨𝒗𝒂𝒕𝒂𝒓</code>
+<code>/𝒑𝒐𝒔𝒕𝒆𝒓 𝑨𝒗𝒂𝒕𝒂𝒓 2022</code>
+<code>/𝒑𝒐𝒔𝒕𝒆𝒓 𝑨𝒗𝒂𝒕𝒂𝒓: 𝑻𝒉𝒆 𝑾𝒂𝒚 𝒐𝒇 𝑾𝒂𝒕𝒆𝒓</code>
+
+<b>📌 𝑵𝑶𝑻𝑬:</b> 𝑩𝒐𝒕 𝒄𝒂𝒏 𝒇𝒊𝒍𝒕𝒆𝒓 𝒓𝒆𝒔𝒖𝒍𝒕𝒔 𝒃𝒚 𝒌𝒆𝒚𝒘𝒐𝒓𝒅𝒔 𝒂𝒏𝒅 𝒓𝒆𝒍𝒆𝒂𝒔𝒆 𝒚𝒆𝒂𝒓.  
 '''
-    IMG = "https://i.ibb.co/ymD61smt/photo-2025-12-10-13-50-26-7582226305333067796.jpg"
-    EFCT = 5104841245755180586 # 🔥 Fire Effect Animation, not using bcz working only in bot pm
-    ST_BTN = "Repo"
-    REPO = "https://github.com/XalFH/Poster-Scraper-Bot"
-    UP_BTN = "Updates"
-    UPDTE = "https://t.me/EchoBotz"
-    SP_BTN = "Support Group"
-    SP_GR = "https://t.me/NxTalks"
+    IMG = "https://files.catbox.moe/jy4xcm.jpg"
+    EFCT = 5104841245755180586
+    UP_BTN = "📢 𝑼𝒑𝒅𝒂𝒕𝒆𝒔"
+    UPDTE = "https://t.me/RassianObsession"
+    SP_BTN = "💬 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑"
+    SP_GR = "https://t.me/RassianObsession"
+
+# For inline keyboard without repo button
+def get_keyboard():
+    keyboard = [
+        [
+            InlineKeyboardButton("📢 𝑼𝒑𝒅𝒂𝒕𝒆𝒔", url="https://t.me/RassianObsession"),
+            InlineKeyboardButton("💬 𝑺𝒖𝒑𝒑𝒐𝒓𝒕", url="https://t.me/RassianObsession")
+        ]
+    ]
+    return InlineKeyboardMarkup(keyboard)
